@@ -18,9 +18,9 @@
     }
 
     .jumbotronInnerShadow{
-        -webkit-box-shadow: inset 0px 0px 20px 11px rgba(0,0,0,0.25);
-        -moz-box-shadow: inset 0px 0px 20px 11px rgba(0,0,0,0.25);
-        box-shadow: inset 0px 0px 20px 11px rgba(0,0,0,0.25);
+        -webkit-box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.1);
+        -moz-box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.1);
+        box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.1);
     }
 
     /* Navbar Drop Shadow */
@@ -423,7 +423,7 @@
       color: #FFFFFF;
     }
     .navbar-default {
-      background-color: #4E575C;
+      background-color: #769FB6;
     }
     .container .navbar-nav li a {
       color: #FFFFFF;
