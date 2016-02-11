@@ -230,7 +230,7 @@
     .socialFooter {
         margin-top: 0px;
         clear: both;
-        background-color: #5B616A;
+        background-color: #2F2D2E;
         height: 60px;
         width: 100%;
         bottom: 0;
@@ -303,7 +303,7 @@
     .tablePPTimeline {
         border:2px;
         border-style: solid;
-        border-color: ##002A45;
+        border-color: #F18F01; /*002A45*/
         border-collapse:collapse;
         box-shadow: 5px 5px 10px 0px rgba(119, 119, 119, 0.3);
         -moz-box-shadow: 5px 5px 10px 0px rgba(119, 119, 119, 0.3);
@@ -314,7 +314,7 @@
     .thPPTimeline {
     	border:2px;
     	border-style: solid;
-    	border-color: ##002A45;
+    	border-color: #F18F01; /*002A45*/
     	border-collapse:collapse;
     	padding:5px;
       text-align:center;
@@ -326,7 +326,7 @@
       font-weight: bold;
     	border:2px;
     	border-style: solid;
-    	border-color: ##002A45;
+    	border-color: #F18F01; /*002A45*/
     	border-collapse:collapse;
     	padding:5px;
     	text-align:center;
@@ -423,7 +423,7 @@
       color: #FFFFFF;
     }
     .navbar-default {
-      background-color: #003559;
+      background-color: #2E4057;
     }
     .container .navbar-nav li a {
       color: #FFFFFF;
@@ -531,7 +531,7 @@
       color: #FFFFFF;
     }
     .panel-primary .panel-heading .panel-title {
-      background-color: #002A45;
+      background-color: #F18F01; /*002A45*/
     }
     .panel-primary .panel-heading .panel-title {
       color: #FFFFFF;
