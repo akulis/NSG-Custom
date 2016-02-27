@@ -72,10 +72,15 @@
     }
 
     .NSGCategoryButton {
-        -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.42);
-        -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.42);
-        box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.42);
+        -webkit-box-shadow: 8px 8px 15px 0px rgba(0,0,0,0.42);
+        -moz-box-shadow: 8px 8px 15px 0px rgba(0,0,0,0.42);
+        box-shadow: 8px 8px 15px 0px rgba(0,0,0,0.42);
     }
+
+    .panel-category-list ul li a h5 {
+        height: 50px;
+    }
+
 
     /*.NSGCategoryButton:hover {
         margin: 0px 25px 30px 25px;
