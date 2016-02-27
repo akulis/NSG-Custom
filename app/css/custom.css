@@ -886,7 +886,7 @@
   transition-property: box-shadow, transform;
 }
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-  box-shadow: 8px 8px 15px 0px rgba(0,0,0,0.42);
+  box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.42);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
