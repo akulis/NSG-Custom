@@ -135,7 +135,7 @@
     	font-size: 25pt;
     	font-style: italic;
     	font-weight: bold;
-    	color: #FFFFFF;
+    	color: #000000;
     	width: 100%;
     	text-align: center;
     	padding-top: 5px;
@@ -341,6 +341,12 @@
 
     .contactFooterText {
         font-size: 4vw;
+    }
+
+    /*Gives items a list style*/
+    .prod-desc-list-style ul {
+    list-style-type: circle;
+    margin-left:10px;
     }
 
 
