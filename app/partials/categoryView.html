@@ -1,4 +1,20 @@
 <section>
+    <!-- Edit Announcement Here -->
+    <!--
+    <br />
+    <div class="panel panel-primary">
+		<div class="panel-heading">
+		  <h2 class="panel-title panel-primary">
+		    {{'Announcement' | r | xlat}}
+		  </h2>
+		</div>
+		<div class="panel-body">
+		  <h4 class="NSGcenter">National Service Gear Customer Service will be closed Friday, March 25th, in observance of Good Friday. National Service Gear wishes you and your family a safe and Happy Holiday weekend.</h4>
+		</div>
+	</div>
+    <br />
+    -->
+    <!-- End Announcement -->
     <nav id="451qa_nav_hdr" class="nav">
         <ul>
             <li class="hidden-sm hidden-xs">
@@ -15,27 +31,29 @@
             </li>
         </ul>
     </nav>
-    <aside class="col-sm-3 col-collapse visible-md visible-lg" ng-if="navStatus.visible">
-        <div class="panel panel-default panel-nav">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    {{'Program List' | r | xlat}}
-                </h3>
+    <div class="row">
+        <aside class="col-md-3 visible-md visible-lg" ng-if="navStatus.visible">
+            <div class="panel panel-default panel-nav">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        {{'Program List' | r | xlat}}
+                    </h3>
+                </div>
+                <nav class="nav 451qa_sidenav panel-body">
+                    <ul>
+                        <categorycollapse tree='tree' current='currentCategory'></categorycollapse>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav 451qa_sidenav panel-body">
-                <ul>
-                    <categorycollapse tree='tree' current='currentCategory'></categorycollapse>
-                </ul>
-            </nav>
+        </aside>
+        <div ng-class="{ 'col-md-9': navStatus.visible, 'col-md-12': !navStatus.visible }" >
+
+            <categorylistview></categorylistview>
+
+            <loadingindicator ng-show="productLoadingIndicator" title="{{'Please wait while we fetch all products' | r | xlat}}"/>
+
+            <productlistview></productlistview>
+
         </div>
-    </aside>
-    <div class="col-collapse" ng-class="{ 'col-md-8 col-md-offset-1': navStatus.visible }" >
-
-        <categorylistview></categorylistview>
-
-		<loadingindicator ng-show="productLoadingIndicator" title="{{'Please wait while we fetch all products' | r | xlat}}"/>
-
-        <productlistview></productlistview>
-
     </div>
 </section>
