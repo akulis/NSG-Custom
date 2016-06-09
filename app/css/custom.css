@@ -92,6 +92,10 @@
     font-size: 15px;
 }
 
+.shoppingCartIndicator ul li a {
+    color: #FFFFFF;
+}
+
 .NSGNavbarIconContainer {
     max-width: 100%;
     height: auto;
@@ -313,7 +317,7 @@
     height: 60px;
     width: 100%;
     bottom: 0;
-    padding: 10px 25px 0px 0px;
+    padding: 10px 0px 0px 60px;
 }
 
 /* Use this to transition icons */
@@ -327,20 +331,20 @@
   transition: all ease-in-out 0.5s;
 }
 
-.socialFooter > .text-right > .iconTrans {
+.socialFooter > .text-left > .iconTrans {
     color: #F7F7F7; /*E04F4F*/
 }
 
-.socialFooter > .text-right > .iconTwitter:hover {
+.socialFooter > .text-left > .iconTwitter:hover {
     color: #00ACED !important; /* 2B2B2B */
 }
-.socialFooter > .text-right > .iconFacebook:hover {
+.socialFooter > .text-left > .iconFacebook:hover {
     color: #3B5998 !important; /* 2B2B2B */
 }
-.socialFooter > .text-right > .iconInstagram:hover {
+.socialFooter > .text-left > .iconInstagram:hover {
     color: #517fA4 !important; /* 2B2B2B */
 }
-.socialFooter > .text-right > .iconLinkedIn:hover {
+.socialFooter > .text-left > .iconLinkedIn:hover {
     color: #007BB6 !important; /* 2B2B2B */
 }
 
@@ -354,8 +358,8 @@
 
 /*Gives items a list style*/
 .prod-desc-list-style ul {
-list-style-type: circle;
-margin-left:25px;
+    list-style-type: circle;
+    margin-left:25px;
 }
 
 
@@ -504,6 +508,7 @@ margin-left:25px;
 .badge {
   background-color: undefined;
 }
+/* Change Shopping Cart Indicator Number Color */
 .badge {
   color: #FFFFFF;
 }
